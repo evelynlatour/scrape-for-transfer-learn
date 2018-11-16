@@ -2,3 +2,4 @@
 dist
 node_modules
 scraped-images
+quick-scrape/scrape-urls.js
