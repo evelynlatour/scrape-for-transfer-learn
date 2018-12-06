@@ -14,7 +14,7 @@ const renameFiles = async (path, baseFileName, fileStartNum) => {
     });
     fileNum += 1;
   }
-  console.log(`done renaming ${imageFiles.length} images`.bold.green);
+  console.log(`renaming ${imageFiles.length} images`.bold.green);
 };
 
-renameFiles(`${__dirname}/../scraped-images/long-sleeve`, `long-sleeve`, 279);
+renameFiles(`${__dirname}/../scraped-images/category/tee`, `shirt`, 0);
